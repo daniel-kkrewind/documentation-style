@@ -10,6 +10,24 @@ Reasons:
 3. Allows AWS API parameter nesting
 4. More customization options (i.e. More themes to choose from, more options incase themes don't suit requirements)
 
+### Code Commenting Guide:
+#### Quick example:
+```javascript
+/** This line is for function description
+ * @param {string} name - Person's name.
+ * @param {integer} age - Person's age
+ * @param {object} child- Person's child object
+ * @param {string} child.fname - Child's first name
+ * @param {integer} child.age - Child's age
+ */
+function Person(name, age, child) {
+console.log('hello' + name);
+};
+```
+For more detailed guides:
+- http://usejsdoc.org/about-getting-started.html
+- (See JSDoc Examples) http://usejsdoc.org/index.html
+
 ### Documentation Generator:
 1. JSDocs for Javascript Documentation https://github.com/jsdoc3/jsdoc
 2. TypeDocs for Typescript Documentation http://typedoc.org/
@@ -46,25 +64,7 @@ JSDocs has a few:
 	- http://docstrap.github.io/docstrap/themes/lumen/index.html
 	- https://github.com/danyg/jsdoc3Template/wiki#screenshots
 
-### Code Commenting Guide:
-#### Quick example:
-```javascript
-/** This line is for function description
- * @param {string} name - Person's name.
- * @param {integer} age - Person's age
- * @param {object} child- Person's child object
- * @param {string} child.fname - Child's first name
- * @param {integer} child.age - Child's age
- */
-function Person(name, age, child) {
-console.log('hello' + name);
-};
-```
-For more detailed guides:
-- http://usejsdoc.org/about-getting-started.html
-- (See JSDoc Examples) http://usejsdoc.org/index.html
-
-Worth reading:
+#### Worth reading:
 Typescript can understand JSDoc comments (which helps with writing less buggy code)
 https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript
 
