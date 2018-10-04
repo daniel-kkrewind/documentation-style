@@ -1,5 +1,3 @@
-Technical Documentations
-
 ### Executive Summary:
 Code commenting style is the same for both generators. That means we can change generators at any time without needing to amend the code comments.
 
